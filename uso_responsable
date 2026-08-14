@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso Responsable - Tienda Naturista La Viña</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+    
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573108576068?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+         class="whatsapp"
+        target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+         alt="WhatsApp">
+</a>
+
+<header class="encabezado">
+
+    <div class="logo">
+        <img src="imagenes/logo.png" alt="Logo">
+    </div>
+
+    <div class="texto-encabezado">
+        <h1>Tienda Naturista La Viña</h1>
+        <p>Bienestar y salud para toda la familia</p>
+    </div>
+
+</header>
+
+<nav class="menu">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+
+    <a href="quienes_somos.html">
+        <i class="fa-solid fa-users"></i> Quiénes Somos
+    </a>
+
+    <a href="productos.html">
+        <i class="fa-solid fa-leaf"></i> Productos
+    </a>
+
+    <a href="uso_responsable.html" class="activo">
+        <i class="fa-solid fa-shield-heart"></i> Uso Responsable
+    </a>
+
+    <a href="contacto.html">
+        <i class="fa-solid fa-envelope"></i> Contacto
+    </a>
+</nav>
+
+<section class="contenido">
+
+    <h2>Uso Responsable de Productos Naturales</h2>
+
+    <p>
+        En Tienda Naturista La Viña promovemos el uso responsable de los
+        productos naturales como complemento de hábitos de vida saludables.
+    </p>
+
+</section>
+
+<section class="recomendaciones">
+
+    <div class="tarjeta-uso">
+        <i class="fa-solid fa-user-doctor"></i>
+        <h3>Consulte a un profesional</h3>
+        <p>
+            Antes de consumir cualquier suplemento o producto natural,
+            consulte con un profesional de la salud.
+        </p>
+    </div>
+
+    <div class="tarjeta-uso">
+        <i class="fa-solid fa-capsules"></i>
+        <h3>Siga las indicaciones</h3>
+        <p>
+            Respete las dosis recomendadas y las instrucciones de uso
+            indicadas por el fabricante.
+        </p>
+    </div>
+
+    <div class="tarjeta-uso">
+        <i class="fa-solid fa-child"></i>
+        <h3>Mantenga fuera del alcance de los niños</h3>
+        <p>
+            Almacene los productos en lugares seguros y adecuados.
+        </p>
+    </div>
+
+    <div class="tarjeta-uso">
+        <i class="fa-solid fa-temperature-low"></i>
+        <h3>Conservación adecuada</h3>
+        <p>
+            Mantenga los productos en un lugar fresco y seco,
+            protegido de la luz solar.
+        </p>
+    </div>
+
+</section>
+
+<section class="aviso">
+
+    <h3>Importante</h3>
+
+    <p>
+        Los productos naturales no sustituyen tratamientos médicos ni la
+        orientación de profesionales de la salud. Su consumo debe realizarse
+        de manera responsable y consciente.
+    </p>
+
+</section>
+
+<footer>
+
+    <h3>Tienda Naturista La Viña</h3>
+
+    <p>📱 WhatsApp: 300 123 4567</p>
+
+    <p>✉️ contacto@lavina.com</p>
+
+    <p>© 2026 Todos los derechos reservados</p>
+
+</footer>
+
+</body>
+</html>
