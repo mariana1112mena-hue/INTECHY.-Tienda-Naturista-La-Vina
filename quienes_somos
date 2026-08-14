@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - Tienda Naturista La Viña</title>
+
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header class="encabezado">
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573108576068?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+         class="whatsapp"
+        target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+         alt="WhatsApp">
+</a>
+
+<div class="logo">
+    <img src="imagenes/logo.png" alt="Logo">
+</div>
+
+<div class="texto-encabezado">
+    <h1>Tienda Naturista La Viña</h1>
+    <p>Bienestar y salud para toda la familia</p>
+</div>
+
+
+</header>
+
+<nav class="menu">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+
+<a href="quienes_somos.html" class="activo">
+    <i class="fa-solid fa-users"></i> Quiénes Somos
+</a>
+
+<a href="productos.html">
+    <i class="fa-solid fa-leaf"></i> Productos
+</a>
+
+<a href="uso_responsable.html">
+    <i class="fa-solid fa-shield-heart"></i> Uso Responsable
+</a>
+
+<a href="contacto.html">
+    <i class="fa-solid fa-envelope"></i> Contacto
+</a>
+
+
+</nav>
+
+<section class="contenido">
+
+
+<h2>Quiénes Somos</h1>
+
+<img src="imagenes/propietario.jpeg"
+     alt="Propietario Tienda Naturista La Viña"
+     class="foto-propietario">
+
+
+     <h3 class="nombre-propietario">
+Emilio Noriega Castro
+</h3>
+
+<p class="cargo">
+Propietario y fundador
+</p>
+
+<p class="experiencia-resumen">
+Más de 20 años de experiencia en el sector naturista
+</p>
+
+<div class="experiencia">
+
+    <h3>Experiencia y Compromiso</h3>
+
+    <p>
+        <strong>Más de 20 años de experiencia</strong> brindando asesoría
+        y ofreciendo productos naturales orientados al bienestar y al cuidado de la salud.
+    </p>
+
+    <ul>
+        <li>✓ Atención personalizada.</li>
+        <li>✓ Productos naturales de calidad.</li>
+        <li>✓ Orientación responsable a los clientes.</li>
+        <li>✓ Compromiso con el bienestar familiar.</li>
+    </ul>
+
+</div>
+     
+<section class="mision-vision">
+
+    <div class="tarjeta">
+
+        <h3>Misión</h3>
+
+        <p>
+            En Tienda Naturista La Viña, nuestra misión es brindar productos
+            naturales de alta calidad que contribuyan al bienestar, la salud
+            y el cuidado integral de nuestros clientes. Nos comprometemos a
+            ofrecer una atención amable, responsable y de confianza,
+            orientando a cada persona para que encuentre alternativas
+            naturales que ayuden a mejorar su calidad de vida.
+        </p>
+
+    </div>
+
+    <div class="tarjeta">
+
+        <h3>Visión</h3>
+
+        <p>
+            Buscamos ser una tienda reconocida por ofrecer productos naturales
+            confiables y de calidad, convirtiéndonos en una opción preferida
+            por nuestros clientes en el cuidado de su salud y bienestar.
+            Aspiramos a crecer continuamente, ampliar nuestra variedad de
+            productos y fortalecer la confianza de nuestra comunidad mediante
+            un excelente servicio, compromiso y atención personalizada.
+        </p>
+
+    </div>
+
+</section>
+
+
+</section>
+
+<footer>
+
+
+<h3>Tienda Naturista La Viña</h3>
+
+📍 Ocaña - Norte de Santander </p>
+
+<p>📱 WhatsApp: 310 857 6068</p>
+
+<p>✉️ contacto@lavina.com</p>
+
+<p>© 2026 Todos los derechos reservados</p>
+
+
+
+</footer>
+
+</body>
+</html>
