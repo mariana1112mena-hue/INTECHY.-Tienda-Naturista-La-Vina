@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Productos - Tienda Naturista La Viña</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="encabezado">
+
+<div class="logo">
+<img src="imagenes/logo.png" alt="Logo">
+</div>
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573108576068?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+         class="whatsapp"
+        target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+         alt="WhatsApp">
+</a>
+
+<div class="texto-encabezado">
+<h1>Tienda Naturista La Viña</h1>
+<p>Bienestar y salud para toda la familia</p>
+</div>
+
+</header>
+
+<nav class="menu">
+<a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+<a href="quienes_somos.html"><i class="fa-solid fa-users"></i> Quiénes Somos</a>
+<a href="productos.html" class="activo"><i class="fa-solid fa-leaf"></i> Productos</a>
+<a href="uso_responsable.html"><i class="fa-solid fa-shield-heart"></i> Uso Responsable</a>
+<a href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
+</nav>
+
+<section class="contenido">
+
+<h2>Catálogo de Productos</h2>
+
+<input
+type="text"
+id="buscar"
+placeholder="Buscar producto..."
+onkeyup="buscarProducto()">
+
+</section>
+
+<h2 class="categoria">Vitaminas</h2>
+
+<div class="contenedor-productos">
+
+<div class="producto">
+<img src="imagenes/5-HTP.jpg" alt="5-HTP">
+<h3>5-HTP</h3>
+<button onclick="abrirModal('5-HTP','Es un suplemento que ayuda a aumentar la serotonina. Se utiliza para mejor el estado de ánimo,reducir la ansiedad, favorecer el sueño y el apetito.')">
+ ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Selenium.jpg" alt="Selenium">
+<h3>Selenium</h3>
+<button onclick="abrirModal('Selenium','Ayuda a la salud cardiovascular,la prótasta,el sistema inmunológico y el buen funcionamiento de la tiroides.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Biotina.jpg" alt="Biotina">
+<h3>Biotina</h3>
+<button onclick="abrirModal('Biotina','Ayuda a fortalecer el cabello la piel y las uñas.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Guarana.jpg" alt="Guaraná">
+<h3>Guaraná</h3>
+<button onclick="abrirModal('Guaraná','Ayuda a aumentar la energia, mejorar el estado de alerta y reducir el cansancio.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Vitamina E.jpg" alt="Vitamina E">
+<h3>Vitamina E</h3>
+<button onclick="abrirModal('Vitamina E','Vitamina antioxidante que ayuda a proteger las células.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Oregano.jpg" alt="Orégano">
+<h3>Orégano</h3>
+<button onclick="abrirModal('Orégano','Ayuda a fortalezer el sistema inmunológico y aporta propiedades antioxidante y antimicrobianas.')">
+Ver detalles
+</button>
+</div>
+
+</div>
+
+<h2 class="categoria">Suplementos</h2>
+
+<div class="contenedor-productos">
+
+<div class="producto">
+<img src="imagenes/L-Argenina y L-Ornitina.jpg" alt="L-Argenina y L-Ornitina">
+<h3>L-Argenina y L-Orginina</h3>
+<button onclick="abrirModal('L-Argenina y L-Ortinina','Ayudan al metabolismo de las proteinas,favorecen a la recuperación muscular y apoyan la circulación.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Tongkat Ali.jpg" alt="Tongkat Ali">
+<h3>Tongkat Ali</h3>
+<button onclick="abrirModal('Tongkat Ali','Ayuda a apoyar la salud sexual, la energía y la vitalidad.')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Betaine HCL.jpg" alt="Betaina HCL">
+<h3>Betaina HCL</h3>
+<button onclick="abrirModal('Betaina HCL','ayuda a mejorar la digestión, favorece la descomposición de los alimentos y la absorción de nutrientes..')">
+Ver detalles
+</button>
+</div>
+
+</div>
+
+<h2 class="categoria">Productos Naturales</h2>
+
+<div class="contenedor-productos">
+
+<div class="producto">
+<img src="imagenes/Uña de gato.jpg" alt="Uña de gato">
+<h3>Uña de gato </h3>
+<button onclick="abrirModal('Uña de gato','ayuda a fortalecer el sistema inmunológico y aporta propiedades antioxidantes y antiinflamatorias..')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Gaba.jpg" alt="Gaba">
+<h3>Gaba</h3>
+<button onclick="abrirModal('Gaba','ayuda a promover la relajación, reducir el estrés y la ansiedad leve, y mejorar la calidad del sueño. También favorece una sensación de calma..')">
+Ver detalles
+</button>
+</div>
+
+<div class="producto">
+<img src="imagenes/Echinacea.jpg" alt="Equinácea">
+<h3>Equinácea</h3>
+<button onclick="abrirModal('Equinácea','ayuda a promover la relajación, reducir el estrés y la ansiedad leve, y mejorar la calidad del sueño. También favorece una sensación de calma..')">
+Ver detalles
+</button>
+</div>
+
+</div>
+
+<div id="modal" class="modal">
+
+<div class="modal-contenido">
+
+<span class="cerrar" onclick="cerrarModal()">×</span>
+
+<h2 id="tituloModal"></h2>
+
+<p id="descripcionModal"></p>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Tienda Naturista La Viña</h3>
+
+<p>© 2026 Todos los derechos reservados</p>
+
+</footer>
+
+<script>
+
+function buscarProducto() {
+
+let filtro =
+document.getElementById("buscar")
+.value
+.toUpperCase();
+
+let productos =
+document.querySelectorAll(".producto");
+
+productos.forEach(function(producto){
+
+let texto =
+producto.innerText.toUpperCase();
+
+if(texto.indexOf(filtro) > -1){
+
+producto.style.display = "";
+
+}else{
+
+producto.style.display = "none";
+
+}
+
+});
+
+}
+
+function abrirModal(nombre,descripcion){
+
+document.getElementById("tituloModal").innerHTML = nombre;
+
+document.getElementById("descripcionModal").innerHTML = descripcion;
+
+document.getElementById("modal").style.display = "block";
+
+}
+
+function cerrarModal(){
+
+document.getElementById("modal").style.display = "none";
+
+}
+
+</script>
+
+</body>
+</html>
