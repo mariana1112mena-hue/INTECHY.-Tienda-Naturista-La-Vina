@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tienda Naturista La Viña</title>
+
+```
+<link rel="stylesheet" href="css/estilos.css">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header class="encabezado">
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573108576068?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos."
+         class="whatsapp"
+        target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+         alt="WhatsApp">
+</a>
+
+<div class="logo">
+    <img src="imagenes/logo.png" alt="Logo">
+</div>
+
+<div class="texto-encabezado">
+    <h1>Tienda Naturista La Viña</h1>
+    <p>Bienestar y salud para toda la familia</p>
+</div>
+
+
+</header>
+
+<nav class="menu">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+
+
+<a href="quienes_somos.html">
+    <i class="fa-solid fa-users"></i> Quiénes Somos
+</a>
+
+<a href="productos.html">
+    <i class="fa-solid fa-leaf"></i> Productos
+</a>
+
+<a href="uso_responsable.html">
+    <i class="fa-solid fa-shield-heart"></i> Uso Responsable
+</a>
+
+<a href="contacto.html" class="activo">
+    <i class="fa-solid fa-envelope"></i> Contacto
+</a>
+
+
+</nav>
+
+<section class="contenido">
+
+```
+<h2>Contáctanos</h2>
+
+<p>
+    Estamos comprometidos con brindar una atención cercana y personalizada.
+    Comunícate con nosotros a través de cualquiera de nuestros canales.
+</p>
+
+
+</section>
+
+<section class="contacto-info">
+
+
+<div class="tarjeta-contacto">
+    <i class="fa-brands fa-whatsapp"></i>
+    <h3>WhatsApp</h3>
+    <p>3108576068</p>
+</div>
+
+<div class="tarjeta-contacto">
+    <i class="fa-solid fa-location-dot"></i>
+    <h3>Dirección</h3>
+    <p>Ocaña, Norte de Santander</p>
+</div>
+
+<div class="tarjeta-contacto">
+    <i class="fa-solid fa-clock"></i>
+    <h3>Horario</h3>
+    <p>Lunes a Sábado<br>8:00 a.m. - 6:00 p.m.</p>
+</div>
+
+<div class="tarjeta-contacto">
+    <i class="fa-solid fa-envelope"></i>
+    <h3>Correo</h3>
+    <p>contacto@lavina.com</p>
+</div>
+
+
+</section>
+
+<section class="mensaje-final">
+
+
+<h3>¡Será un gusto atenderte!</h3>
+
+<p>
+    Visítanos o comunícate con nosotros para conocer más sobre nuestros
+    productos naturales y recibir orientación personalizada.
+</p>
+
+
+</section>
+
+<footer>
+
+
+<h3>Tienda Naturista La Viña</h3>
+
+<p>📱 WhatsApp: 310 857 6068</p>
+
+<p>📍 Ocaña - Norte de Santander</p>
+
+<p>© 2026 Todos los derechos reservados</p>
+
+
+</footer>
+
+</body>
+</html>
